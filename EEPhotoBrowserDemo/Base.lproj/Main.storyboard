@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BGI-we-bcn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.01" translatesAutoresizingMaskIntoConstraints="NO" id="EkX-iC-SZ3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.14" translatesAutoresizingMaskIntoConstraints="NO" id="HtI-Qd-jq1">
+                                        <rect key="frame" x="0.0" y="162" width="375" height="161.5"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.19" translatesAutoresizingMaskIntoConstraints="NO" id="YBR-vc-ON1">
+                                        <rect key="frame" x="0.0" y="323.5" width="375" height="162"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.10" translatesAutoresizingMaskIntoConstraints="NO" id="81A-0W-wSP">
+                                        <rect key="frame" x="0.0" y="485.5" width="375" height="161.5"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BGI-we-bcn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cjt-wQ-aAE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BGI-we-bcn" secondAttribute="trailing" id="g8n-vg-egd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BGI-we-bcn" secondAttribute="bottom" id="iYy-Js-mEq"/>
+                            <constraint firstItem="BGI-we-bcn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jMv-hf-bhu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="stackView" destination="BGI-we-bcn" id="VXz-am-HRj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.01" width="1125" height="2436"/>
+        <image name="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.10" width="1125" height="2436"/>
+        <image name="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.14" width="1125" height="2436"/>
+        <image name="Simulator Screen Shot - iPhone X - 2018-09-05 at 10.48.19" width="1125" height="2436"/>
+    </resources>
+</document>
